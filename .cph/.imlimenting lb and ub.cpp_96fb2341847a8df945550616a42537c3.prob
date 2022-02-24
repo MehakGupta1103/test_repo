@@ -1,0 +1,1 @@
+{"name":"Local: imlimenting lb and ub","url":"c:\\c and cpp work\\coding\\imlimenting lb and ub.cpp","tests":[{"id":1645610081264,"input":"5\n6 7 1 9 4  \n5","output":"1 4 6 7 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c and cpp work\\coding\\imlimenting lb and ub.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: infix to postfix","url":"c:\\c and cpp work\\coding\\infix to postfix.cpp","tests":[{"id":1645348288651,"input":"2\n15\n((A+B)*D)^(E-F)\n19\nA+(B*C-(D/E^F)*G)*H","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c and cpp work\\coding\\infix to postfix.cpp","group":"local","local":true}

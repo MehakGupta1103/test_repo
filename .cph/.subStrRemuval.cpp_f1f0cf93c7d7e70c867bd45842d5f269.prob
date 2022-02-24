@@ -1,0 +1,1 @@
+{"name":"Local: subStrRemuval","url":"c:\\c and cpp work\\coding\\subStrRemuval.cpp","tests":[{"id":1645194006730,"input":"5\n01111001\n0000\n111111\n101010101\n011011110111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\c and cpp work\\coding\\subStrRemuval.cpp","group":"local","local":true}
