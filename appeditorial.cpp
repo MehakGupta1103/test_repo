@@ -21,7 +21,7 @@ int main(){
         subarray.insert(i);
     }
     while(q--){
-        int type, i;
+        int type, i;//lol
         cin >> type >> i;
         if(type==1){
             cin >> a[i]; // update
