@@ -1,0 +1,1 @@
+{"name":"Local: friendly fight","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\friendly fight.cpp","tests":[{"id":1646053494407,"input":"5\n1 1\n6 5 \n5 4\n9 6\n30 18","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\friendly fight.cpp","group":"local","local":true}
