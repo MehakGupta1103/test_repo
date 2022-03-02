@@ -1,0 +1,1 @@
+{"name":"Local: a not after z","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\a not after z.cpp","tests":[{"id":1646114555040,"input":"1\naaaa\nglmz","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\a not after z.cpp","group":"local","local":true}
