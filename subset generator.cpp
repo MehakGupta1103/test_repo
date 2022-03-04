@@ -29,6 +29,7 @@ int main(){
     vector<int> empty;
     subsetg(empty, 0, num);
     for(auto &it: allSubset){
+        cout << it.size() << "this is the size" << endl;
         for(auto &value: it){
             cout << value ;
         }
