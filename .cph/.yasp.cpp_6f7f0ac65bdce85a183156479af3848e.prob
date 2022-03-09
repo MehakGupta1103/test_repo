@@ -1,0 +1,1 @@
+{"name":"Local: yasp","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\yasp.cpp","tests":[{"id":1646634709849,"input":"1\n3 3\n1 2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\yasp.cpp","group":"local","local":true}

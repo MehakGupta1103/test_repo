@@ -27,7 +27,7 @@ int solve2(int a, int b){
 }
 
 //binary exponentiation --> iterative method --> but this will run for O(log(power))
-int solve3(int power, int num){
+int solve3_again(int power, int num){
     int result = 1;
     while(power){
         if(power&1){
