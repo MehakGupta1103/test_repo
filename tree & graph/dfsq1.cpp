@@ -41,7 +41,7 @@ void dfs(int vertex){
          */
     }
 }
-//complexity -- > o(vertex+edges)
+//complexity -- > O(vertex+edges)
 
 
 int main(){
