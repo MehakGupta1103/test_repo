@@ -1,0 +1,1 @@
+{"name":"Local: inclusion","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\inclusion.cpp","tests":[{"id":1646766826295,"input":"2\n5\nhelena\nirena\narthos\npentos\ntulu\n3\nalen\nbira\ncult","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\inclusion.cpp","group":"local","local":true}
