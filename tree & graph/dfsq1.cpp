@@ -9,7 +9,7 @@ vector<int> graph_list[N];
 bool vis[N];
 
 vector<vector<int> > cc;
-// to store elements of one connencted component
+// to store elementss of one connencted component
 vector<int> current_cc; // temprary vector to store com
 
 void dfs(int vertex){
