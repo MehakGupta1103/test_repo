@@ -1,0 +1,1 @@
+{"name":"Local: dfs","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\tree & graph\\dfs.cpp","tests":[{"id":1646817192675,"input":"5\n1 2 \n2 3\n3 4\n2 4\n1 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\tree & graph\\dfs.cpp","group":"local","local":true}
