@@ -1,0 +1,1 @@
+{"name":"Local: conts","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\conts.cpp","tests":[{"id":1646844064832,"input":"4 2\n5 10 12 2 \n1 2\n3 2 4 3\n3 1\n2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\conts.cpp","group":"local","local":true}
