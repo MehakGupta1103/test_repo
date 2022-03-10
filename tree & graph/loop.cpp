@@ -1,4 +1,4 @@
-//how to find connected components in a graph using dfs 
+//how to find cycle in a graph using dfs 
 // and store 
 // FOREST 
  #include<bits/stdc++.h>
@@ -8,38 +8,36 @@ const int N = 1e5+10;
 vector<int> graph_list[N];
 bool vis[N];
 
-vector<vector<int> > cc;
-// to store elementss of one connencted component
-vector<int> current_cc; // temprary vector to store com
-
-void dfs(int vertex){
+bool dfs(int vertex, int par){
 
     /**
      * take action on vertex after entering 
      * the vertex
      */
-    current_cc.push_back(vertex);
-    //base condition
-    if(vis[vertex]) return;
 
     // we just visited the given vertex
     vis[vertex] = true;
 
+    bool isLoop = false;
+
     // recursion
     for(int child : graph_list[vertex]){
-
+        //base condition
+        if(vis[child] && child == par) continue;
+        if(vis[child]) return true;
         /**
          * take action on child before
          * entering the child node
          */
 
-        dfs(child);
-
+        isLoop |= dfs(child, vertex);
+ 
         /**  -- > backtracting
          * take action on child  
          * after exiting child node
          */
     }
+    return isLoop;
 }
 //complexity -- > O(vertex+edges)
 
@@ -54,13 +52,14 @@ int main(){
         graph_list[y].push_back(x);
     }
     int count = 0; 
+        bool isLoop = false;
+
     for(int i = 0; i < n; i++){
         if(vis[i]) continue;
-        current_cc.clear();
-        dfs(i);
-        cc.push_back(current_cc);
-        count++;
+        if(dfs(i,0)){
+            isLoop = true;
+            break;
+        }
     }
-    cout << count << endl;
-    cout << cc.size() << endl;  //O(n+e)
+    cout << isLoop << endl;
 }
