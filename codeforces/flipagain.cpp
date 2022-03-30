@@ -31,7 +31,7 @@ int main() {
                         count = 0; first = i; 
                     
                 } 
-                else if (count!=0){
+                else if (count!=0){ // jaoo
                     data[first] = count;
                     arr[count] = 1;
                     count = 0; 
