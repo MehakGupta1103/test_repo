@@ -64,3 +64,26 @@ int32_t main(){
         solve();
     }
 }
+/**
+ for j in range(int(input())):
+    n=int(input())
+    
+    
+    def digSum(n):
+     
+        if (n == 0):
+            return 0
+        if (n % 9 == 0):
+            return 9
+        else:
+           return (n % 9)
+    
+    x=9-digSum(n)
+    s=str(n)
+    ans=s+str(x)
+    for i in range( 0 , len(s)):
+        temp=s[0:i]+str(x)+s[i:len(s)]
+        if(temp[0] == '0'):
+            continue
+        ans=min(temp,ans)
+        **/
