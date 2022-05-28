@@ -5,6 +5,8 @@
         "bitset": "cpp",
         "chrono": "cpp",
         "algorithm": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "cmath": "c",
+        "complex": "c"
     }
 }
