@@ -12,6 +12,8 @@ int32_t main()
     cin >> q;
     int arr[n];
     int sum = 0;
+    int curr = -1;
+    int b[n] = {0};
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -27,6 +29,10 @@ int32_t main()
             cin >> index;
             cin >> x;
 
+            if(curr != -1){
+
+            }
+
             sum += x;
             sum -= arr[index - 1];
 
@@ -38,8 +44,9 @@ int32_t main()
         {
             cin >> x;
             // for(int i = 0; i < n; i++) arr[i] = x;
-            int arr[n] = {x,};
+            int arr[n] = {x};
 
+            curr = x;
             
             sum = n * x;
             cout << sum << endl;
