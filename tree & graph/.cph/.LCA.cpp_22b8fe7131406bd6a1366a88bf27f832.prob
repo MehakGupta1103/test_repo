@@ -1,0 +1,1 @@
+{"name":"Local: LCA","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\tree & graph\\LCA.cpp","tests":[{"id":1654005086507,"input":"5 4\n1 2 \n2 3\n3 4\n1 5\n4 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\test_repo\\tree & graph\\LCA.cpp","group":"local","local":true}
